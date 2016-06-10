@@ -2679,6 +2679,10 @@
                     margin-bottom: 0;
                 }
 
+				.timeline > li > .timeline-panel p a > i{
+					font-size: 0.7em;
+				}
+
             .timeline > li > .timeline-badge {
                 color: #fff;
                 width: 10px;
