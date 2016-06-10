@@ -1745,6 +1745,11 @@
 		font-size: 2em;
 	}
 
+	h4 a > i{
+		margin-left: 0.5em;
+		font-size: 0.7em;
+	}
+
 /* Form */
 
 	form {
