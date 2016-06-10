@@ -2666,6 +2666,10 @@
                     right: auto;
                 }
 
+				.timeline > li > .timeline-panel > .timeline-date{
+					display: none;
+				}
+
                 .timeline > li > .timeline-panel > *:last-child{
                     margin-bottom: 0;
                 }
@@ -2688,13 +2692,14 @@
                 border-bottom-left-radius: 50%;
             }
 
-
             .timeline > li > .timeline-date{
                 margin-left: -12em;
                 padding-top: 1.6em;
                 text-align: right;
                 width: 11em;
             }
+
+
 
 /* Poptrox */
 
@@ -3173,6 +3178,25 @@
 					margin: 2.25em 0 0 0;
 					padding: 2.25em 0 0 0;
 				}
+
+		/* Timeline */
+		.timeline{
+			padding-left: 2em;
+		}
+
+			.timeline > li > .timeline-panel{
+				margin-top: 0;
+			}
+
+				.timeline > li > .timeline-panel > .timeline-date{
+					display: block;
+				}
+
+			.timeline > li > .timeline-date{
+				display: none;
+			}
+
+
 
 		/* Poptrox */
 
