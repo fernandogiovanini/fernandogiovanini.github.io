@@ -2118,7 +2118,7 @@
 
 	ul {
 		list-style: disc;
-		margin: 0 0 2em 0;
+		margin: 0 0 1em 0;
 		padding-left: 1em;
 	}
 
@@ -2618,7 +2618,10 @@
 				#main > section ul.training span.training-title,
 				#main > section ul.training span.training-info,
 				#main > section ul.published span.publication-title,
-				#main > section ul.published span.publication-info{
+				#main > section ul.published span.publication-info
+				#main > section ul.job h3.job-title,
+				#main > section ul.job span.job-description,
+				#main > section ul.job span.job-hirer{
 					line-height: 1.3em;
 				}
 
@@ -2641,14 +2644,19 @@
 				#main > section ul.published span.publication-info,
 				#main > section ul.education span.degree-title,
 				#main > section ul.education span.degree-institution,
-				#main > section ul.education span.degree-work{
+				#main > section ul.education span.degree-work,
+				#main > section ul.job h3.job-title,
+				#main > section ul.job span.job-description,
+				#main > section ul.job span.job-hirer,
+				#main > section ul.job span.job-hirer-url{
 					display: block;
 				}
 
 
 				#main > section ul.education span.degree-title,
 				#main > section ul.training span.training-title,
-				#main > section ul.published span.publication-title{
+				#main > section ul.published span.publication-title,
+				#main > section ul.job h3.job-title{
 					font-size: 1.2em;
 				}
 
@@ -2657,9 +2665,22 @@
 				}
 
 				#main > section ul.training span.training-info,
-				#main > section ul.published span.publication-info{
+				#main > section ul.published span.publication-info,
+				#main > section ul.job span.job-description,
+				#main > section ul.job span.job-hirer-url{
 					font-size: 1em;
 				}
+
+				#main > section ul.job span.job-hirer,
+				#main > section ul.job span.job-description{
+					margin-bottom: 1em;
+				}
+
+				#main > section ul.job li.job-owner span.job-hirer{
+					margin-bottom: 0em;
+				}
+
+
 
 
 
@@ -2696,7 +2717,7 @@
             .timeline > li > .timeline-panel {
                 border: 3px solid #ddd;
                 border-radius: 3px;
-                margin-top: -3.7em;;
+                margin-top: -3.9em;;
                 margin-left: 1.6em;
                 padding: 20px;
                 position: relative;
