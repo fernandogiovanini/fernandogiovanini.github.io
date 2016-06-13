@@ -2526,12 +2526,12 @@
 
         #header .contacts .icons {
             margin: 2em auto 0 auto;
-
         }
 
             #header .contacts .icons a,
-            #header .contacts a.email.icon{
-                color: rgba(255, 255, 255, 0.4);
+            #header .contacts a.email.icon,
+			#header .contacts address{
+                color: rgba(255, 255, 255, 0.6);
             }
 
 /* Footer */
