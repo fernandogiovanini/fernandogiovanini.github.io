@@ -1622,11 +1622,13 @@
 	h2 {
 		font-size: 1.5em;
 		line-height: 1.5em;
+		border-bottom: solid 1px;
 	}
 
 	h3 {
 		font-size: 1.25em;
 		line-height: 1.5em;
+		margin: 0;
 	}
 
 	h4 {
@@ -2589,9 +2591,7 @@
 	}
 
 		#main > section {
-			border-top: solid 2px #efefef;
-			margin: 4em 0 0 0;
-			padding: 4em 0 0 0;
+			margin: 3em 0 0 0;
 		}
 
 			#main > section:first-child {
@@ -2599,6 +2599,22 @@
 				margin-top: 0;
 				padding-top: 0;
 			}
+
+			#main > section > div > *:last-child{
+				margin-bottom: 0;
+			}
+
+			#main > section ul.published,
+			#main > section ul.training{
+				list-style: none;
+			}
+
+				#main > section ul.published li,
+				#main > section ul.training li{
+					margin-bottom: 1em;
+				}
+
+
 
 /* Timeline */
     .timeline {
@@ -2614,6 +2630,7 @@
             width: 3px;
             background-color: #eeeeee;
             margin-left: -1.5px;
+			margin-bottom: 1em;
         }
 
         .timeline > li {
