@@ -45,25 +45,25 @@
 	<body id="top">
 
 		<!-- Header -->
-		<header id="header">
-			<a href="#" class="image avatar"><img src="images/fernando-giovanini-profile.jpg" alt="Fernando Giovanini" /></a>
+		<header id="header" itemscope itemtype="http://schema.org/Person">
+			<a href="#" class="image avatar"><img src="images/fernando-giovanini-profile.jpg" alt="Fernando Giovanini" itemprop="image"/></a>
 			<h1>
-				<strong>Fernando Giovanini</strong><br>
-				Programador PHP<br>
-				Mestre e Bacharel em Ciência da Computação
+				<strong itemprop="name">Fernando Giovanini</strong><br>
+				<span itemprop="jobTitle">Programador PHP</span><br>
+				<span itemprop="description">Mestre e Bacharel em Ciência da Computação</span>
 			</h1>
 
 			<div class="contacts">
-				<address class="email icon fa-map-marker"><span class="label">Marília, São Paulo, Brasil</span></address>
-				<a href="mailto:fernando@giovanini.com.br" class="email icon fa-envelope-o" onclick="trackOutboundEmail('fernando@giovanini.com.br');"><span class="label">fernando@giovanini.com.br</span></a>
+				<address class="email icon fa-map-marker"><span class="label"itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"><span itemprop="addressLocality">Marília</span>, <span itemprop="addressRegion">São Paulo</span>, <span itemprop="addressCountry">Brasil</span></span></address>
+				<a href="mailto:fernando@giovanini.com.br" class="email icon fa-envelope-o" onclick="trackOutboundEmail('fernando@giovanini.com.br');"><span class="label" itemprop="email">fernando@giovanini.com.br</span></a>
 			</div>
 
 			<div class="contacts">
 				<ul class="icons">
-					<li><a href="https://github.com/fernandogiovanini" class="icon fa-github" onclick="trackOutboundLink('https://github.com/fernandogiovanini'); return false;"><span class="label">Github</span></a></li>
-					<li><a href="https://www.linkedin.com/in/fernandogiovanini" class="icon fa-linkedin" onclick="trackOutboundLink('https://www.linkedin.com/in/fernandogiovanini'); return false;"><span class="label">LinkedIn</span></a></li>
-					<li><a href="hthttps://www.facebook.com/fernando.giovanini.3tps://twitter.com/mexericadigital" class="icon fa-twitter" onclick="trackOutboundLink('https://twitter.com/mexericadigital'); return false;"><span class="label">Twitter</span></a></li>
-					<li><a href="https://www.facebook.com/fernando.giovanini.3" class="icon fa-facebook" onclick="trackOutboundLink('https://www.facebook.com/fernando.giovanini.3'); return false;"><span class="label">Facebook</span></a></li>
+					<li><a href="https://github.com/fernandogiovanini" class="icon fa-github" onclick="trackOutboundLink('https://github.com/fernandogiovanini'); return false;" itemprop="sameAs"><span class="label">Github</span></a></li>
+					<li><a href="https://www.linkedin.com/in/fernandogiovanini" class="icon fa-linkedin" onclick="trackOutboundLink('https://www.linkedin.com/in/fernandogiovanini'); return false;" itemprop="sameAs"><span class="label">LinkedIn</span></a></li>
+					<li><a href="hthttps://www.facebook.com/fernando.giovanini.3tps://twitter.com/mexericadigital" class="icon fa-twitter" onclick="trackOutboundLink('https://twitter.com/mexericadigital'); return false;" itemprop="sameAs"><span class="label">Twitter</span></a></li>
+					<li><a href="https://www.facebook.com/fernando.giovanini.3" class="icon fa-facebook" onclick="trackOutboundLink('https://www.facebook.com/fernando.giovanini.3'); return false;" itemprop="sameAs"><span class="label">Facebook</span></a></li>
 				</ul>
 			</div>
 		</header>
