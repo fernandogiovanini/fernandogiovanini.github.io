@@ -2613,7 +2613,8 @@
 					margin-bottom: 1em;
 				}
 
-
+				#main > section ul.education span.degree-title,
+				#main > section ul.education span.degree-institution,
 				#main > section ul.training span.training-title,
 				#main > section ul.training span.training-info,
 				#main > section ul.published span.publication-title,
@@ -2621,11 +2622,31 @@
 					line-height: 1.3em;
 				}
 
+				#main > section ul.education span.degree-date,
+				#main > section ul.education span.degree-work{
+					line-height: 1.2em;
+					margin: 1em 0 0 0;
+				}
+
+				#main > section ul.education span.degree-work{
+					font-size: 1.1em;
+				}
+
+					#main > section ul.education span.degree-work a i{
+						margin-right: 0.5em;
+						font-size: 0.8em;
+					}
+
 				#main > section ul.published span.publication-title,
-				#main > section ul.published span.publication-info {
+				#main > section ul.published span.publication-info,
+				#main > section ul.education span.degree-title,
+				#main > section ul.education span.degree-institution,
+				#main > section ul.education span.degree-work{
 					display: block;
 				}
 
+
+				#main > section ul.education span.degree-title,
 				#main > section ul.training span.training-title,
 				#main > section ul.published span.publication-title{
 					font-size: 1.2em;
@@ -2673,14 +2694,12 @@
             }
 
             .timeline > li > .timeline-panel {
-                border: 1px solid #d4d4d4;
-                border-radius: 2px;
+                border: 3px solid #ddd;
+                border-radius: 3px;
                 margin-top: -3.7em;;
                 margin-left: 1.6em;
                 padding: 20px;
                 position: relative;
-                -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
-                box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
             }
                 .timeline > li > .timeline-panel:before {
                     position: absolute;
@@ -2688,8 +2707,8 @@
                     right: -15px;
                     display: inline-block;
                     border-top: 15px solid transparent;
-                    border-left: 15px solid #ccc;
-                    border-right: 0 solid #ccc;
+                    border-left: 15px solid #dddddd;
+                    border-right: 0 solid #dddddd;
                     border-bottom: 15px solid transparent;
                     border-left-width: 0;
                     border-right-width: 15px;
@@ -2710,7 +2729,7 @@
                     content: " ";
                     border-left-width: 0;
                     border-right-width: 14px;
-                    left: -14px;
+                    left: -11px;
                     right: auto;
                 }
 
@@ -2782,6 +2801,7 @@
 				position:absolute;
 				top:-8px;
 				font-size: 4em;
+				color: #ddd;
 			}
 
 /* Poptrox */
@@ -3267,9 +3287,11 @@
 			}
 
 			#main > section ul.training span.training-title,
-			#main > section ul.training span.training-info{
-				display: block;
-			}
+			#main > section ul.training span.training-info
+				#main > section ul.education span.degree-title,
+				#main > section ul.education span.degree-institution{
+					display: block;
+				}
 
 			#main > section ul.published span.publication-title,
 			#main > section ul.training span.training-title{
