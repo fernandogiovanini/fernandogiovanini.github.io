@@ -1550,6 +1550,10 @@
 
 /* Basic */
 
+	.hidden{
+		display: none;
+	}
+
 	body {
 		background: #fff;
 	}
