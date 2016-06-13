@@ -2609,20 +2609,33 @@
 				list-style: none;
 			}
 
-				#main > section ul.published li,
-				#main > section ul.training li{
+				#main > section ul.published li{
 					margin-bottom: 1em;
 				}
 
+
+				#main > section ul.training span.training-title,
+				#main > section ul.training span.training-info,
 				#main > section ul.published span.publication-title,
 				#main > section ul.published span.publication-info{
-					display: block;
 					line-height: 1.3em;
 				}
 
-				#main > section ul.published span.publication-title{
-					font-size: 1.3em;
+				#main > section ul.published span.publication-title,
+				#main > section ul.published span.publication-info {
+					display: block;
 				}
+
+				#main > section ul.training span.training-title,
+				#main > section ul.published span.publication-title{
+					font-size: 1.2em;
+				}
+
+				#main > section ul.training span.training-title:after{
+					content: ' - ';
+				}
+
+				#main > section ul.training span.training-info,
 				#main > section ul.published span.publication-info{
 					font-size: 1em;
 				}
