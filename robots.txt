@@ -1,0 +1,6 @@
+# Configuração do rastreador
+User-agent: *
+Crawl-delay: 10
+
+# Index permitido
+Allow: /*
